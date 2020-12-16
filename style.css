@@ -1,0 +1,241 @@
+
+			.main-container
+			{
+				max-width: 1440px;
+				margin: 0 auto;
+			}
+			*
+			{
+				padding: 0px;
+				margin: 0px;
+			}
+			body
+			{
+				background-image: url('images/tlo_strony.jpg');
+				background-attachment: fixed;
+				
+				
+				
+				/*background-repeat: repeat-x;
+				background-color: #64646c;*/
+			}
+			a
+			{
+				color: green;
+				text-decoration: none;
+				border-bottom: 1px dotted goldenrod;
+			}
+			a:hover
+			{
+				color: navy;
+			}
+			#kontener
+			{
+				margin-left: 0px;
+			}
+			/* Górna część kontenera */
+
+			#gorna_czesc_kontenera
+			{
+				position:relative;
+				margin-top: 10px;
+				background-image: url('images/gory_do_strony.gif');
+				width: 1450px;
+				height: 300px;	
+			}
+			img.logo
+			{
+				position: absolute;
+				border: 0;
+				left: 20px;
+				top: 20px;
+			}
+			#kontakt_box
+			{
+				position: absolute;
+				right: 40px;
+				top: 7px;
+				font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+				font-size: 17px;
+				color: white;
+				line-height: 100%;
+
+			}
+			#kontakt_box a
+			{
+				border-bottom: none;
+			}
+			/* MENU_GORNE */
+
+			#gorne-menu
+			{
+				position:absolute;
+				left: 50px;
+				bottom: -1px;
+			}	
+			#linki_menu li
+			{
+				list-style-type: none;
+				float: left;
+				border-right: 1px solid #2E2121;
+				margin-top: 269px;
+				
+
+			}		
+			#linki_menu li a
+			{
+				background-image: url('images/srodek_menu_gornego.gif');
+				height: 31px;
+				display: inline-block;
+                float: l
+                ft;
+				border-bottom: none;
+				padding: 0px 10px;
+				font-family: Verdana, Geneva, Tahoma, sans-serif;
+				font-size: 15px;
+				font-weight: bold;
+				color: white;
+				
+				
+			}			
+			#linki_menu li a:hover, #linki_menu li.aktualny a
+			{
+				background-image: url('images/srodek_menu_gornego_hover.gif');
+				color: #cccccc;
+				margin-left: 20px;
+			}
+			span.link
+			{
+				display: inline-block;
+				margin-top: 5px;
+			}
+			/*ŚRODKOWE MENU*/
+			#srodkowe_menu
+			{
+				background-image: url('images/srodkowe_menu.gif');
+				height: 32px;
+				width: 1450px;
+				
+			}
+			#srodkowe_menu li
+			{
+				list-style-type: none;
+				float: left;
+			}
+			#srodkowe_menu li a
+			{
+				border-bottom: none;
+				color: rgb(148, 190, 224);
+				font-size: 19px;
+				font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+				font-weight: bold;
+				font-style: italic;
+			}
+			#srodkowe_menu li span.link2
+			{
+				display: block;
+				margin-top: 7px;
+			}
+			#srodkowe_menu #pierwszy_poziom
+			{
+				margin-left: 100px;
+			}
+			#srodkowe_menu span.odstepik
+			{
+				display: inline-block;
+				margin: 15px 25px 0px 25px;
+				color: navy;
+			}
+			#srodkowe_menu li a:hover
+			{
+				color: white;
+			}
+			/* MENU ROZWIJANE*/
+			#pierwszy_poziom li .drugi_poziom
+			{
+				display: none;
+				position: absolute;
+				top: 1.9em;
+				left: 0em;
+				background-color: #0F3250;
+				border-left: 4px solid rgb(0, 0, 0);
+				border-bottom: 1px solid rgb(0, 0, 0);
+				border-right: 1px solid rgb(0, 0, 0);
+				
+			}
+			#pierwszy_poziom li:hover .drugi_poziom
+			{
+				display: block;
+				width: 210px;
+			}
+			#pierwszy_poziom li .drugi_poziom li
+			{
+				width: 150px;
+				text-align: left;
+				margin-left: 10px;
+				
+			}
+			#pierwszy_poziom > li
+			{
+				position: relative;
+				height: 32px;
+			}
+			#pierwszy_poziom li .drugi_poziom li a
+			{
+				display: block;
+				width: 150px;
+				margin-bottom: 5px;
+				font-family: 'Amatic SC', cursive, Verdana, Geneva, Tahoma, sans-serif;
+				font-size: 20px;
+				margin-top: 2px;
+			}
+			#pierwszy_poziom li .drugi_poziom li.one-element-menu
+			{
+				margin-top: 5px;
+			}
+			/*content page */
+			#content
+			{
+				width: 944px;
+			}
+			#top-section-content
+			{
+				background-image: url('images/gorna_czesc_zawartosci.gif');
+				width: 1450px;
+				height: 17px;
+			}
+			#mid-section-content
+			{
+				background: url('images/srodkowa_czesc_zawartosci.gif');
+				width: 1450px;
+				background-repeat: repeat-y;
+				left: 20px;
+			}
+			#down-section-content
+			{
+				background-image: url('images/gorna_czesc_zawartosci.gif');
+				width: 1450px;
+				height: 17px;
+				
+			}
+			#text
+			{
+				text-align: justify;
+				padding: 10px 50px;
+				line-height: 140%;
+				font-size: 20px;
+				font-family: 'Amatic SC', cursive, Verdana, Geneva, Tahoma, sans-serif;
+			}
+			h1
+			{
+				font-size: 20x;
+				text-align: center;
+				font-family: 'Amatic SC', cursive, Verdana, Geneva, Tahoma, sans-serif;
+			}
+			p
+			{
+				margin-bottom: 15px;
+			}
+			
+
+			/*]]>*/
